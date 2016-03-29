@@ -1,56 +1,74 @@
-html body {
-	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
-	background: #E7E7E7;
+.content > h1 {
+	text-transform: uppercase;/*workd*/
+	font-weight: bold;/* */
+	margin: 20px;
 }
 
-a {
-	color: #0078A0;
-}
-
-.content {
-	text-align: center
-	padding: 0 15% 20px;
-}
-
-.content h1 {
-	text-transform: uppercase;
-	font-weight: bold;
-	margin: 20px 0;
-
-
-content form {
+.content > form {
 	padding: 10px;
 	width: 300px;
-	margin: 0 auto;
+	margin: auto;
 }
 
-.content form input {
+.content > form > input {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px;
+	border-style: solid;
+	border-color: #107394;
 	color: #107394;
 	background: transparent;
-	magrin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
-.content div {
+.content > div {
 	margin-bottom: 25px;
 	padding: 10px;
 	width: 100%;
 }
 
 .click {
-	background: #ADD8E6;
+	background-color: #ADD8E6;
 }
 
 .mouse-over {
-	background: #CF6E0E;
+	background-color: #CF6E0E;
 }
 
 .submit {
-	background: #43AC6A;
+	background-color: #43AC6A;
 }
 
 .timeout {
-	background: #CCCCCC;
+	background-color: #CCCCCC;
 }
+
+body {
+	font-family: 'Helvetica', Arial, sans-serif;
+	color: #000111;/*check*/
+	background-color: #E7E7E7;/*check*/
+}
+
+a {
+	color: #0078A0;/*doesn't apply to anything*/
+}
+
+.content, .ajax {
+	text-align: center;/*check*/
+	padding: 20px;/*check*/
+}
+
+.ajax {
+	background-color: #800080;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
